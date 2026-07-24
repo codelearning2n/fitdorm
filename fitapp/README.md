@@ -2,7 +2,7 @@
 
 PWA ต้องเสิร์ฟผ่าน **https** ถึงจะ "เพิ่มลงหน้าจอโฮม" ได้ (เปิดไฟล์ `file://` ตรงๆ service worker ไม่ทำงาน) — เลือกวิธีใดวิธีหนึ่ง
 
-## วิธีที่ 1: GitHub Pages (ฟรี ถาวร แนะนำ)
+## วิธีที่ 1: GitHub Pages 
 1. สร้าง repo ใหม่บน github.com (public)
 2. อัปโหลดไฟล์ทั้งหมดในโฟลเดอร์นี้ (index.html, manifest.json, service-worker.js, icon-192.png, icon-512.png)
 3. Settings → Pages → Source เลือก `main` / root → Save
